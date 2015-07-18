@@ -78,7 +78,7 @@ def slm():
 	j = 0
 	recordOn = 0
 	trig = 0
-
+        record = []
 	while True:
 	#for i in range(1000):
 	    try:                                                    
