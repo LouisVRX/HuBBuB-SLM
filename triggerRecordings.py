@@ -115,13 +115,12 @@ def slm():
 	     
 	     #Trigger Recording
 	     recordOn = 1
-	     filerecord = "/home/pi/LogMSK/recordings/" + datetime.datetime.now().strftime("%y%m%d_%H:%M:%S") + "_peak.wav"
 
 	    if recordOn == 1:
-	     record = [] 
 	     record.append(block)
 	     trig += 1
 	     if trig == 20:
+	      filerecord = "/home/pi/LogMSK/recordings/" + datetime.datetime.now().strftime("%y%m%d_%H:%M:%S") + "_peak.wav"
 	      trig = 0
 	      recordOn = 0
 	    
@@ -132,6 +131,7 @@ def slm():
 	      wavefile.setframerate(RATE)
 	      wavefile.writeframes(b''.join(record))
 	      wavefile.close()
+	      record = []
 	    #writeCSV
 	    mytime=datetime.datetime.now()
 	    file=open(filename,"a")
