@@ -2,3 +2,4 @@ cython
 numpy
 scipy
 pyaudio
+nsrt-mk3-dev
