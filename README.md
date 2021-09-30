@@ -92,9 +92,9 @@ Outputs :
 
 ## About the NSRT MK3
 
-When use as a usb soundcard, the NSRT MK3 microphone outputs a weighted signal. This is a really nice feature !
+When used as a usb soundcard, the NSRT MK3 microphone outputs a weighted signal. This is a really nice feature !
 The NSRT has a serial communication port to change theses settings and thanks to [Xander Hendriks there is a python package called
-nsrt-mk3-dev](https://github.com/xanderhendriks/nsrt-mk3-dev) that allow us to communicate easily with it.soundlevels_callback
+nsrt-mk3-dev](https://github.com/xanderhendriks/nsrt-mk3-dev) that allow us to communicate easily with it.
 
 
 Two possibilities now :
@@ -224,7 +224,7 @@ www.musikiosk.org / [Project Page](https://louisvoreux.wordpress.com/portfolio/m
 
 * Hubbub is a fully automated low-cost noise monitoring station based on Raspberry Pi.
 Featuring an user interface (control/configuration), a telegram bot, visualization screen, scheduler, wifi hotspot and much more ;
-It is a perfect tool for long term sound level measurement, research purpose or impact studies and was used in several research studies
+It is a perfect tool for long term sound level measurement without expensive equipment. It was used in several research studies.
 If you interested in this or if you want more informations please contact me.
 
 
